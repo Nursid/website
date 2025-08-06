@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Bites - Fresh Food Delivered</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-utensils"></i>
+                <span>Delicious Bites</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#menu" class="nav-link">Menu</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Fresh Food, <span class="highlight">Delivered Fast</span></h1>
+            <p class="hero-subtitle">Experience the finest culinary delights made with fresh, locally sourced ingredients. From farm to your table in under 30 minutes.</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary">Order Now</button>
+                <button class="btn btn-secondary">View Menu</button>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="food-card">
+                <i class="fas fa-pizza-slice"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About Our Kitchen</h2>
+                    <p>At Delicious Bites, we believe that great food brings people together. Our passionate chefs craft each dish with love, using only the freshest ingredients sourced from local farms.</p>
+                    <div class="features">
+                        <div class="feature">
+                            <i class="fas fa-leaf"></i>
+                            <h3>Fresh Ingredients</h3>
+                            <p>Locally sourced, organic produce</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-clock"></i>
+                            <h3>Fast Delivery</h3>
+                            <p>Hot food delivered in 30 minutes</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-heart"></i>
+                            <h3>Made with Love</h3>
+                            <p>Every dish crafted with passion</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="chef-illustration">
+                        <i class="fas fa-user-chef"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Highlights -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2 class="section-title">Popular Dishes</h2>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <div class="menu-icon">
+                        <i class="fas fa-hamburger"></i>
+                    </div>
+                    <h3>Gourmet Burgers</h3>
+                    <p>Juicy beef patties with fresh vegetables and our secret sauce</p>
+                    <span class="price">$12.99</span>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-icon">
+                        <i class="fas fa-pizza-slice"></i>
+                    </div>
+                    <h3>Wood-Fired Pizza</h3>
+                    <p>Authentic Italian pizza with fresh mozzarella and basil</p>
+                    <span class="price">$15.99</span>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-icon">
+                        <i class="fas fa-fish"></i>
+                    </div>
+                    <h3>Grilled Salmon</h3>
+                    <p>Fresh Atlantic salmon with lemon herb seasoning</p>
+                    <span class="price">$18.99</span>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-icon">
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                    <h3>Garden Salad</h3>
+                    <p>Mixed greens with seasonal vegetables and house dressing</p>
+                    <span class="price">$9.99</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Location</h3>
+                            <p>123 Food Street, Culinary District</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>(555) 123-FOOD</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>hello@deliciousbites.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-utensils"></i>
+                    <span>Delicious Bites</span>
+                </div>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Delicious Bites. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
